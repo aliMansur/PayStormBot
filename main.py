@@ -13,7 +13,7 @@ dp = Dispatcher()
 inline_btn = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="To'lov tizimi", callback_data="Tolov")]
 ])
-
+a= "assalamalaykum"
 
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
